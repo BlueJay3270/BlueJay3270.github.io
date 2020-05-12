@@ -1,10 +1,13 @@
 /*footer*/
 #footer {
-  background-color: #953696
+  background-color: #2279bf
+}
+button {
+  background-color: #2279bf
 }
 /*post boxes*/
 #post {
-  background-color: #6b6b6b
+  background-color: #8b108f
 }
 /*navbar css*/
 body {
@@ -61,13 +64,13 @@ li a:hover {
 }
 
 .active {
-  background-color: #953696;
+  background-color: #8b108f;
 }
 
 
 .navbar {
   overflow: hidden;
-  background-color: #333;
+  background-color: #2279bf;
 }
 
 .navbar a {
@@ -96,7 +99,7 @@ li a:hover {
 }
 
 .navbar a:hover, .dropdown:hover .dropbtn {
-  background-color: red;
+  background-color: #8b108f;
 }
 
 .dropdown-content {
