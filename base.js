@@ -15,3 +15,7 @@ function lastPage(curentPage) {
   //for testing:
   window.location.href = 'mainpage(' + curentPage + ').html';
 }
+
+function openPage(page) {
+  window.location.href = 'https://bluejay3270.github.io/' + page + '.html';
+}

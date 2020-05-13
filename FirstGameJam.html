@@ -6,6 +6,7 @@
 </head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="https://cdn.jsdelivr.net/gh/google/code-prettify@master/loader/run_prettify.js?skin=sunburst"></script>
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
 <link rel="stylesheet" href="base.css">
@@ -45,14 +46,18 @@ and is wrapped around the whole page content, except for the footer in this exam
     some buttons I was able to make a chose your own advnture style text based game. My code was basicly
     many repititions of this:
   </p>
-  <pre>if (location === 'some location') {
+  <pre class='prettyprint'>
+    if (location === 'some location') {
     document.getElementById(game).innerHTML = 'some text for this area'
-  }
+    }
   </pre>
   <p>
     By combinig this with an html page with some buttons a player could move around and interact with
-    other things or people. This is a simple and easy project to do with basic html and javascript
-    skills.
+    other things or people. The element with the ID 'game' was a div that contained some text explaining
+    the game and giving the player a choice to make. When they clicked 'Yes' or 'No' it would trigger a
+    line of if than statements that led to some new text for the player to decide what to do with. The
+    project uses a few simple html tags an javascript logic makeing it a simple and easy project to do as
+    a second or third webpage.
   </p>
 </div>
 
