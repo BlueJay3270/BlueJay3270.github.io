@@ -1,3 +1,17 @@
+.button {
+  font: 16px Arial;
+  text-decoration: none;
+  background-color: #2279bf;
+  color: white;
+  padding: 15px 35px 15px 35px;
+  border-top: 1px solid #CCCCCC;
+  border-right: 1px solid #333333;
+  border-bottom: 1px solid #333333;
+  border-left: 1px solid #CCCCCC;
+}
+a:hover {
+  background-color: #8b108f;
+}
 p {
   padding: 4px;
    margin: 25px;
