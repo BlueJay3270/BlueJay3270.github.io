@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<title>My First Game</title>
+<head>
+  <link rel="icon" href="Tab Logo.png">
+</head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+<link rel="stylesheet" href="base.css">
+<body class="w3-light-grey">
+
+<!-- w3-content defines a container for fixed size centered content,
+and is wrapped around the whole page content, except for the footer in this example -->
+<div class="w3-content" style="max-width:1400px">
+
+<!-- Header -->
+<header class="w3-container w3-center w3-padding-32">
+<img src="logo.png" alt="nope">
+<!--navbar-->
+
+</header>
+<div class="navbar">
+  <a href="mainpage(1).html">Home</a>
+  <div class="dropdown">
+    <button class="dropbtn">Tutorials
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="#">Link 1</a>
+      <a href="#">Link 2</a>
+      <a href="#">Link 3</a>
+    </div>
+  </div>
+</div>
+  <p>
+    This was my first "game", made in three hours. It was a text-based game because thet was what I
+    knew how to make. My friend made a much more complicated game on unity but it was only playable on
+    windows and I use ubuntu, a linux operating system so I couldn't try it. My game was the beter game
+    simply because some of the people we asked to try the game couldn't play his.
+  </p>
+  <p>
+    For this game I used innerHTML to change the text of a div element on an HTML page. Useing this and
+    some buttons I was able to make a chose your own advnture style text based game. My code was basicly
+    many repititions of this:
+  </p>
+  <pre>if (location === 'some location') {
+    document.getElementById(game).innerHTML = 'some text for this area'
+  }
+  </pre>
+  <p>
+    By combinig this with an html page with some buttons a player could move around and interact with
+    other things or people. This is a simple and easy project to do with basic html and javascript
+    skills.
+  </p>
+</div>
+
+<!-- Footer -->
+<footer class="w3-container w3-padding-32 w3-margin-top" id = footer>
+  <button class="w3-button w3-black w3-padding-large w3-margin-bottom" onclick="lastPage(2)">Previous</button>
+  <button class="w3-button w3-black w3-padding-large w3-margin-bottom" onclick="nextPage(2)">Next »</button>
+</footer>
+
+</body>
+</html>
