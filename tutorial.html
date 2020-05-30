@@ -14,8 +14,14 @@
     <iframe id="code"></iframe>
 
     <script type="text/javascript" src="tutorials/tutorial.js"></script>
-    <script> $( "#html" ).load( "tutorials/htmltemplate.txt" ); </script>
-    <script> $( "#css" ).load( "tutorials/csstemplate.txt" ); </script>
-    <script> $( "#js" ).load( "tutorials/jstemplate.txt" ); </script>
+    <script>
+      function load () {
+        $( "#html" ).load( "tutorials/htmltemplate.txt" );
+        $( "#css" ).load( "tutorials/csstemplate.txt" );
+        $( "#js" ).load( "tutorials/jstemplate.txt" );
+      }
+
+      load();
+    </script>
   </body>
 </html>
