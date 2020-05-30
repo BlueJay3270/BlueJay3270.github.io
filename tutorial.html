@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Tutorial Template</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+    <link rel="stylesheet" href="tutorial.css" />
+  </head>
+
+  <body>
+    <textarea id="html" placeholder="HTML" >Hello World</textarea>
+    <textarea id="css" placeholder="CSS"></textarea>
+    <textarea id="js" placeholder="JavaScript"></textarea>
+    <iframe id="code"></iframe>
+
+    <script type="text/javascript" src="tutorial.js"></script>
+    <script> $( "#html" ).load( "tutorials/name.txt" ); </script>
+    <script> $( "#css" ).load( "tutorials/name.txt" ); </script>
+    <script> $( "#js" ).load( "tutorials/name.txt" ); </script>
+  </body>
+</html>
