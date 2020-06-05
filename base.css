@@ -145,3 +145,8 @@ li a:hover {
 .dropdown:hover .dropdown-content {
   display: block;
 }
+
+.artical {
+  padding: 4px;
+   margin: 25px;
+}

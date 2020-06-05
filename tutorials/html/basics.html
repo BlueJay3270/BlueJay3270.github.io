@@ -45,12 +45,44 @@ and is wrapped around the whole page content, except for the footer in this exam
     </div>
   </div>
 </div>
-
+<div class="artical">
 <div><h1>Basics</h1></div>
+<p>
+Before you start to make your first webpage, there are some basic tags you should know. An html tag is how you will tell the computer what to dispaly
+on the webpage. All html tags start with &lt; and end with &gt;. With most tags there is an opening tag and a closing tag. For example,
+</p>
+<pre class="prettyprint">&lt;h1&gt;I'm some big text.&lt;/h1&gt;</pre>
 
-<pre class="prettyprint">
-  &lt;h1&gt;Im some code&lt;/h1&gt;
+<p>
+There are three tags that will be on every webpage in these tutorials. They will all be included in every template you use on each tutorial, but you
+should know their meaning so you can use them when you make your own page from scratch. The first tag is the DOCTYPE tag. In defines the document as
+an html document. It should go on line 1 of any html file. There is no closing tag for the DOCTYPE tag.
+</p>
+<pre class="prettyprint">&lt;!DOCTYPE html&gt;</pre>
+
+<p>
+Next is the html tag. It holds all your html code. This should be the second and last line on your document.
+</p>
+<pre class='prettyprint'>&lt;html&gt;All the code for my webpage...&lt;/html&gt;</pre>
+</div>
+<p>
+The final tag is the body tag. It holds the body of the webpage. You can place this pair of tags somewhere in the html tag, there are usully some other
+things above it but these don't matter yet.
+</p>
+<pre class='prettyprint'>&lt;body&gt;The main body of my webpage&lt;/body&gt;</pre>
+<p>
+  If you combine all this you will get a basic html document that looks like this:
+</p>
+<pre class='prettyprint'>&lt;!DOCTYPE html&gt;
+  &lt;html&gt;
+    &lt;body&gt;
+      I will be a website.
+    &lt;/body&gt;
+  &lt;/html&gt;
 </pre>
+<p>
+  You could use this code with one more line
+</p>
 
 <!-- Footer -->
 <footer class="w3-container w3-padding-32 w3-margin-top" id = footer>
