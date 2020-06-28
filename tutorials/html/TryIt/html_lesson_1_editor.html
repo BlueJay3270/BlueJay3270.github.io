@@ -10,6 +10,7 @@
   <body>
 
 
+    <button onclick="compile()">Run Code</button>
     <textarea id="html" placeholder="HTML" ></textarea>
     <textarea id="css" placeholder="CSS"></textarea>
     <textarea id="js" placeholder="JavaScript"></textarea>
@@ -21,8 +22,8 @@
     <script>
       function load () {
         $( "#html" ).load( "https://bluejay3270.github.io/tutorials/html/TryIt/lesson_1_html.txt" );
-        $( "#css" ).load( "tutorials/csstemplate.txt" );
-        $( "#js" ).load( "tutorials/jstemplate.txt" );
+        $( "#css" ).load( "https://bluejay3270.github.io/tutorials/csstemplate.txt" );
+        $( "#js" ).load( "https://bluejay3270.github.io/tutorials/jstemplate.txt" );
       }
 
       load();
