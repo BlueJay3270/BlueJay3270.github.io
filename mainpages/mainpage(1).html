@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html>
-<title>Main Page(2)</title>
+<title>Main Page(1)</title>
 <head>
   <link rel="icon" href="Tab_Logo.png">
 </head>
@@ -8,18 +8,18 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
-<link rel="stylesheet" href="base.css">
+<link rel="stylesheet" href="https://bluejay3270.github.io/base.css">
+<script src="https://bluejay3270.github.io/base.js" charset="utf-8"></script>
 <body class="w3-light-grey">
-<script src="base.js" charset="utf-8"></script>
 
 <!-- w3-content defines a container for fixed size centered content,
 and is wrapped around the whole page content, except for the footer in this example -->
 <div class="w3-content" style="max-width:1400px">
 
-  <!-- Header -->
-  <header class="w3-container w3-center w3-padding-32">
-  <img src="logo.png" alt="nope">
-  <!--navbar-->
+<!-- Header -->
+<header class="w3-container w3-center w3-padding-32">
+<img src="logo.png" alt="header">
+<!--navbar-->
 
 </header>
 <div class="navbar">
@@ -29,8 +29,8 @@ and is wrapped around the whole page content, except for the footer in this exam
       <i class="fa fa-caret-down"></i>
     </button>
     <div class="dropdown-content">
-      <a href="tutorials/html/tools.html">Tools</a>
-      <a href="tutorials/html/basics.html">Basics</a>
+      <a href="https://bluejay3270.github.io/tutorials/html/tools.html">Tools</a>
+      <a href="https://github.io/tutorials/html/basics.html">Basics</a>
       <a href="">Coming Soon!</a>
     </div>
   </div>
@@ -52,7 +52,7 @@ and is wrapped around the whole page content, except for the footer in this exam
 <div class="w3-col l8 s12">
   <!-- Blog entry -->
   <div class="w3-card-4 w3-margin w3-white">
-    <img src="" alt="Picture" style="width:100%">
+    <img src="https://bluejay3270.github.io/pictures/FirstGame.png" alt="Picture" style="width:100%">
     <div class="w3-container">
       <h3><b>Game Jam</b></h3>
       <h5>Me and a friend both tried to make games in three hours. <span class="w3-opacity">February 16, 2020</span></h5>
@@ -61,7 +61,7 @@ and is wrapped around the whole page content, except for the footer in this exam
     <div class="w3-container">
       <div class="w3-row">
         <div class="w3-col m8 s12">
-          <p><button class="w3-button w3-padding-large w3-white w3-border"><b>READ MORE »</b></button></p>
+          <p><a href='https://bluejay3270.github.io/Articals/FirstGameJam.html' class='button'>Read More</a></p>
         </div>
       </div>
     </div>
@@ -70,7 +70,7 @@ and is wrapped around the whole page content, except for the footer in this exam
 
   <!-- Blog entry -->
   <div class="w3-card-4 w3-margin w3-white">
-  <img src="/w3images/bridge.jpg" alt="Picture" style="width:100%">
+  <img src="https://bluejay3270.github.io/pictures/BirthdayPlatformer.png" alt="Picture" style="width:100%">
     <div class="w3-container">
       <h3><b>Birthday Platformer</b></h3>
       <h5>A simple platformer, made as a birthday present. <span class="w3-opacity">May 3, 2020</span></h5>
@@ -79,7 +79,7 @@ and is wrapped around the whole page content, except for the footer in this exam
     <div class="w3-container">
       <div class="w3-row">
         <div class="w3-col m8 s12">
-          <p><button class="w3-button w3-padding-large w3-white w3-border"><b>READ MORE »</b></button></p>
+          <p><a href='https://bluejay3270.github.io/Articals/PhaserPlatformer.html' class='button'>Read More</a></p>
         </div>
         <div class="w3-col m4 w3-hide-small">
         </div>
@@ -97,8 +97,8 @@ and is wrapped around the whole page content, except for the footer in this exam
 
 <!-- Footer -->
 <footer class="w3-container w3-padding-32 w3-margin-top" id = footer>
-  <button class="w3-button w3-black w3-padding-large w3-margin-bottom" onclick="lastPage(2)">Previous</button>
-  <button class="w3-button w3-black w3-padding-large w3-margin-bottom" onclick="nextPage(2)">Next »</button>
+  <button class="w3-button w3-disabled w3-padding-large w3-margin-bottom dropbtn">Previous</button>
+  <button class="w3-button w3-padding-large w3-margin-bottom" onclick="nextPage()" disabled>Next »</button>
 </footer>
 
 </body>
