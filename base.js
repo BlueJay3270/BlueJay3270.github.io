@@ -1,4 +1,4 @@
-//"Next Button links to the next page"
+//"Next" Button links to the next page
 function nextPage(curentPage) {
   curentPage += 1;
   //for when on Github Site
