@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Tutorial Template</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+    <link rel="stylesheet" href="tutorials/tutorial.css" />
+  </head>
+  
+  <body>
+
+
+    <textarea id="html" placeholder="HTML" >Hello World</textarea>
+    <textarea id="css" placeholder="CSS"></textarea>
+    <textarea id="js" placeholder="JavaScript"></textarea>
+    <iframe id="code"></iframe>
+
+
+
+    <script type="text/javascript" src="tutorials/tutorial.js"></script>
+    <script>
+      function load () {
+        $( "#html" ).load( "https://bluejay3270.github.io/tutorials/html/TryIt/lesson_1_html.txt" );
+        $( "#css" ).load( "tutorials/csstemplate.txt" );
+        $( "#js" ).load( "tutorials/jstemplate.txt" );
+      }
+
+      load();
+    </script>
+  </body>
+</html>
